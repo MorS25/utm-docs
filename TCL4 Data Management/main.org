@@ -26,11 +26,35 @@ The master branch will be tagged with a version identifier of the form vx.y.z.  
 
 * API Release Schedule
   This schedule is intended to convey to UTM TCL4 participants when NASA servers will support the various end-points described in the OpenAPI specification.  It is to be assumed that the endpoints, when released, will support the latest tag on the master branch.    
-  | Endpoint               | Location              | Release Date     |
-  |------------------------+-----------------------+------------------|
-  | api/v4/uss-exchange    | utm-tcl4-dmp-api.yaml | <2019-03-28 Thu> |
-  | api/v4/uss-negotiation | utm-tcl4-dmp-api.yaml | <2019-03-28 Thu> |
-  | api/v4/off-nominal     | utm-tcl4-dmp-api.yaml | <2019-03-28 Thu> |
-  | api/v4/uss-handoff     | utm-tcl4-dmp-api.yaml | <2019-03-28 Thu> |
-  | api/v4/loss-of-uss     | utm-tcl4-dmp-api.yaml | <2019-03-28 Thu> |
+  
+| Endpoint                                   | Location                          | Release Date     |
+|--------------------------------------------+-----------------------------------+------------------|
+| api/v4/uss-exchange                        | utm-tcl4-dmp-api.yaml             | <2019-03-28 Thu> |
+| api/v4/uss-negotiation                     | utm-tcl4-dmp-api.yaml             | <2019-04-04 Thu> |
+| api/v4/off-nominal                         | utm-tcl4-dmp-api.yaml             | <2019-04-04 Thu> |
+| api/v4/uss-handoff                         | utm-tcl4-dmp-api.yaml             | <2019-03-28 Thu> |
+| api/v4/loss-of-uss                         | utm-tcl4-dmp-api.yaml             | <2019-04-04 Thu> |
+| api/v4/uss-2-operator-exchange             | utm-tcl4-dmp-api.yaml             | <2019-04-04 Thu> |
+| api/v4/dynamic-restriction-occurrence      | utm-tcl4-dmp-api.yaml             | <2019-04-04 Thu> |
+| api/v4/fet                                 | utm-tcl4-dmp-fet-api.yaml         | <2019-04-04 Thu> |
+| api/v4/fet-latency                         | utm-tcl4-dmp-fet-latency-api.yaml | <2019-04-04 Thu> |
+| api/v4/con-pre-run-range                   | utm-tcl4-dmp-con-api.yaml         | <2019-04-11 Thu> |
+| api/v4/con-pre-run-op                      | utm-tcl4-dmp-con-api.yaml         | <2019-04-11 Thu> |
+| api/v4/con-actual-landing                  | utm-tcl4-dmp-con-api.yaml         | <2019-04-11 Thu> |
+| api/v4/con-wx-operating-point-data         | utm-tcl4-dmp-con-api.yaml         | <2019-04-11 Thu> |
+| api/v4/con-wx-operating-point-data-station | utm-tcl4-dmp-con-api.yaml         | <2019-04-11 Thu> |
+| api/v4/con-cell-service-availability       | utm-tcl4-dmp-con-api.yaml         | <2019-04-11 Thu> |
+| api/v4/con-distress-v2v                    | utm-tcl4-dmp-con-api.yaml         | <2019-04-11 Thu> |
+| api/v4/con-rpic-constraint-message         | utm-tcl4-dmp-con-api.yaml         | <2019-04-11 Thu> |
+| api/v4/cns-pre-run                         | utm-tcl4-dmp-cns-api.yaml         | <2019-04-11 Thu> |
+| api/v4/cns-uasTruthPosition                | utm-tcl4-dmp-cns-api.yaml         | <2019-04-11 Thu> |
+| api/v4/cns-offNominalMitigationOutcome     | utm-tcl4-dmp-cns-api.yaml         | <2019-04-18 Thu> |
+| api/v4/cns-landingOutcome                  | utm-tcl4-dmp-cns-api.yaml         | <2019-04-18 Thu> |
+| api/v4/cns-safeToLandLocationReach         | utm-tcl4-dmp-cns-api.yaml         | <2019-04-18 Thu> |
+| api/v4/cns-onboardSafeLandingCapability    | utm-tcl4-dmp-cns-api.yaml         | <2019-04-18 Thu> |
+| api/v4/cns-onboardSafeLandingCapability    | utm-tcl4-dmp-cns-api.yaml         | <2019-04-18 Thu> |
+| api/v4/daa - tbd                           | utm-tcl4-dmp-daa-api.yaml         | <2019-04-18 Thu> |
+|                                            |                                   |                  |
+
+
 
