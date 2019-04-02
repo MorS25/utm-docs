@@ -103,7 +103,7 @@ definitions:
           A list of identifiers indicating the types of sensors equipped. Descriptions
           of these sensors are to be provided in advance via the DaaSensor model.
 
-          Provide as an array of DaaId values (UUIDs) representing DaaSensor.sensorId
+          Provide as an array of DaaUuid values (UUIDs) representing DaaSensor.sensorId
           values that have been previously submitted. If an identifier is used in this
           array that is not previously known to the DMP system, an error may
           be thrown.
@@ -113,7 +113,7 @@ definitions:
           this is a required field.
         type: array
         items:
-          $ref: 'https://raw.githubusercontent.com/nasa/utm-docs/master/TCL4%20Data%20Management/utm-tcl4-dmp-daa.yaml#/definitions/DaaId'
+          $ref: 'https://raw.githubusercontent.com/nasa/utm-docs/master/TCL4%20Data%20Management/utm-tcl4-dmp-daa.yaml#/definitions/DaaUuid'
         minItems: 0
         maxItems: 100
       static_obstacle_lists:
@@ -127,7 +127,7 @@ definitions:
           be thrown.
         type: array
         items:
-          $ref: 'https://raw.githubusercontent.com/nasa/utm-docs/master/TCL4%20Data%20Management/utm-tcl4-dmp-daa.yaml#/definitions/DaaId'
+          $ref: 'https://raw.githubusercontent.com/nasa/utm-docs/master/TCL4%20Data%20Management/utm-tcl4-dmp-daa.yaml#/definitions/DaaUuid'
       conflict_resolution_configuration:
         description: >-
           A reference to a previously submitted ConflictResolutionConfiguration via
@@ -135,4 +135,4 @@ definitions:
 
           This field is optional in this model, but it is required when the
           vehicle is implementing DAA capabilities.
-        $ref: 'https://raw.githubusercontent.com/nasa/utm-docs/master/TCL4%20Data%20Management/utm-tcl4-dmp-daa.yaml#/definitions/DaaId'
+        $ref: 'https://raw.githubusercontent.com/nasa/utm-docs/master/TCL4%20Data%20Management/utm-tcl4-dmp-daa.yaml#/definitions/DaaUuid'

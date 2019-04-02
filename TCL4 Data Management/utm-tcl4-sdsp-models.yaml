@@ -169,7 +169,7 @@ definitions:
       control_throttle_command:
         description: >-
           Current throttle command at this timestamp.
-        format: string
+        type: string
       timestamp:
         description: >-
           Time for the rotor data. The same time source MUST be used
